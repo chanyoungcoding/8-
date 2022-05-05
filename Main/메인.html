@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="./css/header.css" rel="stylesheet" type="text/css" >
+	<link href="./css/layout.min.css" rel="stylesheet" type="text/css" >
+	<link href="./css/normalizer.css" rel="stylesheet" type="text/css" >
+    <title>Responsive Website Design</title>
+</head>
+<body>
+    <header>
+        <div class="top-area wrapper">
+			<h1 class="title">
+				<a href="메인.html">8조(임시 이름)</a>
+			</h1>
+			<div class="gnb wrapper">
+				<ul class="gnb-list">
+					<li class="hovering">
+						<a href="ShoppingSite.html">All</a>
+					</li>
+					<li class="hovering">
+						<a href="">Top</a>
+						<ul class="hoverTarget">
+							<li>
+								<a href=""><span>맨투맨&후드티</span></a>
+							</li>
+							<li>
+								<a href=""><span>셔츠</span></a>
+							</li>
+							<li>
+								<a href=""><span>니트</span></a>
+							</li>
+						</ul>
+					</li>
+					<li class="hovering">
+						<a href="">Bottom</a>
+						<ul class="hoverTarget">
+							<li>
+								<a href=""><span>트레이닝</span></a>
+							</li>
+							<li>
+								<a href=""><span>슬랙스</span></a>
+							</li>
+							<li>
+								<a href=""><span>데님</span></a>
+							</li>
+						</ul>
+					</li>
+					<li class="hovering">
+						<a href="">Shose</a>
+						<ul class="hoverTarget">
+							<li>
+								<a href=""><span>스니커즈</span></a>
+							</li>
+							<li>
+								<a href=""><span>구두</span></a>
+                            </li>
+						</ul>
+					</li>
+					<li class="hovering">
+						<a href="" ><span>마이페이지</span></a>
+					</li>
+                    <li class="hovering">
+						<a  <link href="로그인.html" rel="stylesheet" ><span>로그인</span></a>
+					</li>
+                    <li class="hovering">
+						<a  <link href="회원가입.html" rel="stylesheet" ><span>회원가입</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </header>
+    
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, Welcome<br><span>Our shopping mall.</span></h2>
+            <h3>We are innovative and creative.</h3>
+            <a href="#" class="btn">thank you</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <p class="font">Choose what you want</p>
+        <div class="container">
+            <div class="box"><img src="../images/img5.png" alt="이미지가 없습니다."></div>
+            <div class="box"><img src="../images/img4.png" alt="이미지가 없습니다."></div>
+            <div class="box"><img src="../images/img1.png" alt="이미지가 없습니다."></div>
+            <div class="box"><img src="../images/img3.png" alt="이미지가 없습니다."></div>
+        </div>
+    </section>
+
+    <section class="services" id="Services">
+        <div class="heading white">
+            <div class = content>
+                <div class="servicesBx">
+                    <img src="../images/icon1.png" alt="이미지가 없습니다.">
+                    <h2>Web Design</h2>
+                    <p>Therefore, I hope that we can work together
+                        to create an innovative and creative space and cheer for us.</p>
+                </div>
+                <div class="servicesBx">
+                    <img src="../images/icon2.png" alt="이미지가 없습니다.">
+                    <h2>Web Design</h2>
+                    <p>Therefore, I hope that we can work together
+                        to create an innovative and creative space and cheer for us.</p>
+                </div>
+                <div class="servicesBx">
+                    <img src="../images/icon3.png" alt="이미지가 없습니다.">
+                    <h2>Web Design</h2>
+                    <p>Therefore, I hope that we can work together
+                        to create an innovative and creative space and cheer for us.</p>
+                </div>
+                <div class="servicesBx">
+                    <img src="../images/icon4.png" alt="이미지가 없습니다.">
+                    <h2>Web Design</h2>
+                    <p>Therefore, I hope that we can work together
+                        to create an innovative and creative space and cheer for us.</p>
+                </div>
+                <div class="servicesBx">
+                    <img src="../images/icon5.png" alt="이미지가 없습니다.">
+                    <h2>Web Design</h2>
+                    <p>Therefore, I hope that we can work together
+                        to create an innovative and creative space and cheer for us.</p>
+                </div>
+                <div class="servicesBx">
+                    <img src="../images/icon6.png" alt="이미지가 없습니다.">
+                    <h2>Web Design</h2>
+                    <p>Therefore, I hope that we can work together
+                        to create an innovative and creative space and cheer for us.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+    </script>
+
+</body>
+</html>
