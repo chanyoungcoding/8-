@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="메인.css">
+    <link rel="stylesheet" href="jarallax.css">
+</head>
+<body>
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">A work of art by popular artists</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="타임_스퀘어.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="200 0">
+                    <p>이 사이트의 수많은 작가들 중에서 인기있는 작품들으로만 구성되어있습니다.
+                        인기있는 작가들의 작품을 사고싶거나 구경하고 싶으면 클릭해 주세요.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 200">Artwork of the Month</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="뉴욕.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="200 0">
+                    <p>이달의 작품들로만 구성되어있습니다.
+                        이달의 가장 인기있는 작품들을 구경해보세요.
+                        작품을 사고싶거나 구경하고 싶으면 클릭해 주세요.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">The rest of the art</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="타임스퀘어.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="200 0">
+                    <p>그외에 나머지 작품들로 구성되어 있습니다.
+                        작품을 사고싶거나 구경하고 싶으면 클릭해 주세요.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="jarallax.js"></script>
+    <script src="jarallax-element.js"></script>
+    <script type="text/javascript">
+        jarallax(document.querySelectorAll('.jarallax'), {
+            speed: 0.5,
+        });
+    </script>
+</body>
+</html>
