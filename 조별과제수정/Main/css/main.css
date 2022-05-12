@@ -123,6 +123,14 @@ section
 }
 /* 메인 첫 페이지 부분 끝*/
 
+.font1
+{
+    text-align: center;
+    font-size: 3.0em;
+    font-weight: 500;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
 /* 두번째 페이지*/
 
 .font
@@ -226,7 +234,7 @@ section
     }
 }
 
-/*세번째 페이지*/
+/*네번째 페이지*/
 .services
 {
     background: rgb(140, 140, 140);
